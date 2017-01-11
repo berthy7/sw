@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.herprogramacion.alquileres.ActividadListaAlquileres">
+
+
+
+    <item
+        android:id="@+id/btnAnuncios"
+        android:orderInCategory="100"
+        android:title="Mapa"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/btnbuscar"
+        android:orderInCategory="100"
+        android:title="Buscar"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/cuenta"
+        android:orderInCategory="100"
+        android:title="Cuenta"
+        app:showAsAction="never" />
+</menu>
